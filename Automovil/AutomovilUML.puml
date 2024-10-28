@@ -1,0 +1,34 @@
+@startuml
+allowmixing
+
+class Main {
+    +main(args: String[]): void
+}
+
+class Automovil {
+    -marca: String
+    -modelo: String
+    -color: String
+    -cilindraje: double
+    +Automovil(marca: String, modelo: String, color: String, cilindraje: double)
+    +getMarca(): String
+    +setMarca(marca: String): void
+    +getModelo(): String
+    +setModelo(modelo: String): void
+    +getColor(): String
+    +setColor(color: String): void
+    +getCilindraje(): double
+    +setCilindraje(cilindraje: double): void
+    +detalleAutomovil(): String
+}
+
+actor Usuario
+
+Usuario -> Main: Ejecuta la aplicación
+Main -> Automovil: Crea instancia "automovil"
+Main -> automovil: Asigna atributos (marca, modelo, color, cilindraje)
+Main -> automovil: Llama a detalleAutomovil()
+automovil -> Automovil: Muestra detalles del automóvil (marca, modelo, color, cilindraje)
+
+Main --> Automovil
+@enduml

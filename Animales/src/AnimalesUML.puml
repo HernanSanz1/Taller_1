@@ -1,0 +1,33 @@
+@startuml
+allowmixing
+
+class main {
+    +main(args: String[]): void
+}
+
+class Animales {
+    -tipo: String
+    -raza: String
+    -Nombre: String
+    -peligroso: String
+    +getTipo(): String
+    +setTipo(tipo: String): void
+    +getRaza(): String
+    +setRaza(raza: String): void
+    +getNombre(): String
+    +setNombre(nombre: String): void
+    +getPeligroso(): String
+    +setPeligroso(peligroso: String): void
+    +detalleanimales(): String
+}
+
+actor Usuario
+
+Usuario -> main: Ejecuta la aplicación
+main -> Animales: Crea instancia "ani1"
+main -> ani1: Asigna atributos (tipo, raza, Nombre, peligroso)
+main -> ani1: Llama a detalleanimales()
+ani1 -> Animales: Muestra detalles del animal (tipo, raza, Nombre, peligroso)
+
+main --> Animales
+@enduml

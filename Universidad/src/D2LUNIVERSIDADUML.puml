@@ -1,0 +1,77 @@
+@startuml
+allowmixing
+
+class Main {
+    +main(args: String[]): void
+}
+
+class Estudiante {
+    -nombre: String
+    -carrera: String
+    -iD: String
+    -modalidad: String
+    +Estudiante()
+    +Estudiante(nombre: String, carrera: String, iD: String, modalidad: String)
+    +getNombre(): String
+    +getCarrera(): String
+    +getId(): String
+    +getModalidad(): String
+    +setNombre(nombre: String): void
+    +setCarrera(carrera: String): void
+    +setId(iD: String): void
+    +setModalidad(modalidad: String): void
+    +detalleEst(): String
+}
+
+class Universidad {
+    -nombre: String
+    -ubicacion: String
+    -ciudad: String
+    +Universidad()
+    +Universidad(nombre: String, ubicacion: String, ciudad: String)
+    +getNombre(): String
+    +getUbicacion(): String
+    +getCiudad(): String
+    +setNombre(nombre: String): void
+    +setUbicacion(ubicacion: String): void
+    +setCiudad(ciudad: String): void
+    +detalleUni(): String
+}
+
+class Curso {
+    -nrc: String
+    -horario: String
+    -paralelo: String
+    +Curso()
+    +Curso(nrc: String, horario: String, paralelo: String)
+    +getNrc(): String
+    +getHorario(): String
+    +getParalelo(): String
+    +setNrc(nrc: String): void
+    +setHorario(horario: String): void
+    +setParalelo(paralelo: String): void
+    +detalleCur(): String
+}
+
+actor Usuario
+
+Usuario -> Main: Ejecuta la aplicación
+Main -> Universidad: Crea instancia "universidad"
+Main -> universidad: Asigna atributos (nombre, ubicación, ciudad)
+Main -> universidad: Llama a detalleUni()
+universidad -> Universidad: Muestra detalles de la universidad (nombre, ubicación, ciudad)
+
+Main -> Estudiante: Crea instancia "estudiante"
+Main -> estudiante: Asigna atributos (nombre, ID, carrera, modalidad)
+Main -> estudiante: Llama a detalleEst()
+estudiante -> Estudiante: Muestra detalles del estudiante (nombre, ID, carrera, modalidad)
+
+Main -> Curso: Crea instancia "curso"
+Main -> curso: Asigna atributos (nrc, horario, paralelo)
+Main -> curso: Llama a detalleCur()
+curso -> Curso: Muestra detalles del curso (nrc, horario, paralelo)
+
+Main --> Estudiante
+Main --> Universidad
+Main --> Curso
+@enduml
