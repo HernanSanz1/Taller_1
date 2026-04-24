@@ -1366,7 +1366,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "07409a58-c7b7-4e0f-9036-f236c6fea234"
+              ]
             },
             "labels": [
               "Flujo 5 : Balanceo"
@@ -1544,6 +1546,58 @@
               {
                 "x": 410,
                 "y": 740
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Flujo 9 : Replicacion de logs diarios.",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Flujo 9 : Replicacion de logs diarios"
+            ],
+            "id": "848ab331-5a07-4c20-b8db-e38c0444c79d",
+            "source": {
+              "x": 540,
+              "y": 600
+            },
+            "target": {
+              "x": 770,
+              "y": 942
+            },
+            "vertices": [
+              {
+                "x": 860,
+                "y": 710
               }
             ]
           },
@@ -2017,7 +2071,7 @@
           },
           {
             "position": {
-              "x": 307.5,
+              "x": 715,
               "y": 947
             },
             "size": {
@@ -2134,7 +2188,7 @@
           },
           {
             "position": {
-              "x": 440,
+              "x": 875,
               "y": 947
             },
             "size": {
@@ -2643,7 +2697,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Flujo de datos",
+              "name": "Flujo 8 : Backup Diario.",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2657,7 +2711,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Flujo de datos"
+              "Flujo 8 : Backup Diario"
             ],
             "id": "5818cf64-f8e2-4ca1-ac61-9a1ff9f16b5c",
             "source": {
@@ -2667,71 +2721,38 @@
             "target": {
               "cell": "992bbd2f-2364-436f-8b21-7b3307853883",
               "port": "fec31aab-1aeb-42e4-91a5-b96e60deb1d1"
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
+            }
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 25,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Límite de confianza",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "fe0d1229-f9c6-4c0b-95a5-96be6a2a4da7"
               ],
-              "name": null
+              "containedElements": [
+                "600d28f1-63b9-48bc-a1f2-b63a1a3cec2a"
+              ]
+            },
+            "labels": [
+              "Límite de confianza"
+            ],
+            "id": "07409a58-c7b7-4e0f-9036-f236c6fea234",
+            "source": {
+              "x": 640,
+              "y": 260
+            },
+            "target": {
+              "x": 1030,
+              "y": 914
             }
           }
         ]
