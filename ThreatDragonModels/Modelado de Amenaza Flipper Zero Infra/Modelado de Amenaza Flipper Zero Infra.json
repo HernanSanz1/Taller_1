@@ -1300,7 +1300,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Aplicación de Balanceo de carga Amazone. "
+                "text": "Aplicación de Balanceo de carga Amazon. "
               },
               "body": {
                 "stroke": "#333333",
@@ -1396,7 +1396,7 @@
             "id": "6de05453-a5c5-43c0-bf75-93df5663676e",
             "data": {
               "type": "tm.Actor",
-              "name": "Aplicación de Balanceo de carga Amazon. ",
+              "name": "Aplicación de Balanceo de carga Amazo. ",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -2087,7 +2087,17 @@
             "target": {
               "cell": "6de05453-a5c5-43c0-bf75-93df5663676e",
               "port": "fec31aab-1aeb-42e4-91a5-b96e60deb1d1"
-            }
+            },
+            "vertices": [
+              {
+                "x": 350,
+                "y": 290
+              },
+              {
+                "x": 390,
+                "y": 290
+              }
+            ]
           }
         ]
       }
