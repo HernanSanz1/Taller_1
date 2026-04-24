@@ -1379,7 +1379,17 @@
             "target": {
               "cell": "600d28f1-63b9-48bc-a1f2-b63a1a3cec2a",
               "port": "fec31aab-1aeb-42e4-91a5-b96e60deb1d1"
-            }
+            },
+            "vertices": [
+              {
+                "x": 770,
+                "y": 380
+              },
+              {
+                "x": 900,
+                "y": 400
+              }
+            ]
           },
           {
             "position": {
@@ -2211,7 +2221,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Flujo de datos",
+              "name": "Flujo 5 : Balanceo.",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2225,7 +2235,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Flujo de datos"
+              ""
             ],
             "id": "a0bf1d14-4c2a-44aa-b684-6bbfcf68d97c",
             "source": {
