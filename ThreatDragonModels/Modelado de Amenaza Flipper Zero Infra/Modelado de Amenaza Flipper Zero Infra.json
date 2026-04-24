@@ -19,6 +19,247 @@
         "cells": [
           {
             "position": {
+              "x": -2.2737367544323206e-12,
+              "y": 6.288303211476887e-12
+            },
+            "size": {
+              "width": 530,
+              "height": 110
+            },
+            "attrs": {
+              "label": {
+                "text": "Zona de Intenet (sin geobloqueo).\n"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "827d5b96-1cc8-4ed9-acb8-8dac009b4ec3",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Zona de Intenet (sin geobloqueo).",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "6896c284-4841-4d93-972e-5b084a0c2776"
+              ],
+              "containedElements": [
+                "1010a2d4-6ce8-446c-8da3-b614bcadb864",
+                "b89e4814-1edb-4a17-aaff-9ba056aa8bb4"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": -146.25,
+              "y": 160
+            },
+            "size": {
+              "width": 650,
+              "height": 100
+            },
+            "attrs": {
+              "label": {
+                "text": "Zona AWS perimetral / Edge.\n"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "84e1b3e9-9ecd-44de-aac9-567b02dbc386",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Zona AWS perimetral / Edge.",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "6896c284-4841-4d93-972e-5b084a0c2776",
+                "1db0e305-a07f-47fe-a092-827681ee017f"
+              ],
+              "containedElements": [
+                "04d93d8f-6e42-4a50-9bff-64eac8c354d1"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 540,
+              "y": 150
+            },
+            "size": {
+              "width": 230,
+              "height": 110
+            },
+            "attrs": {
+              "label": {
+                "text": "Plano de Gestión AWS"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "5a8d6abb-d827-4351-8011-d6ee94d73aad",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Plano de Gestión AWS.",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "e37374e5-3d92-4b35-8c41-88545ba9f4ce"
+              ],
+              "containedElements": [
+                "3d790879-34db-4813-96b6-259610fa49c2"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": -43.00000000000108,
+              "y": 309.99999999999983
+            },
+            "size": {
+              "width": 1020,
+              "height": 300
+            },
+            "attrs": {
+              "label": {
+                "text": "Zona de la App (AWS VPC Público)"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "218d961a-e1d3-4fc5-8bf1-161937ca9cd3",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Zona de la App (AWS VPC Público).",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "543c4298-ca0a-4027-92a4-3a03b67df6f6",
+                "fe0d1229-f9c6-4c0b-95a5-96be6a2a4da7",
+                "f143d244-42e8-46d0-b3cc-ec2176a375e2",
+                "cb40188e-5a89-4934-b123-56476e3426b1",
+                "d7f8191d-336e-42fe-a22a-1991e62569fb",
+                "c51b2166-3845-4eae-96ad-e4df37d3a424"
+              ],
+              "containedElements": [
+                "bd5eec8c-a38f-45fb-b284-3d4fcad35ff0",
+                "600d28f1-63b9-48bc-a1f2-b63a1a3cec2a",
+                "c9485e9e-4f7b-47b3-a6bd-7229239988e5",
+                "6de05453-a5c5-43c0-bf75-93df5663676e",
+                "be933101-58a9-4c96-be90-09ef84efd845"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": -73.00000000000091,
+              "y": 677.0000000000018
+            },
+            "size": {
+              "width": 870,
+              "height": 210
+            },
+            "attrs": {
+              "label": {
+                "text": "Zona Data (alta seguridad).\n"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "a6ed09f8-831a-4507-9962-28a94a79d7f4",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Zona Data (alta seguridad).",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "e4b8f670-2c9f-4336-baf2-5fb949201dfb",
+                "ddcad309-c517-41e0-9006-b405a38b31c1",
+                "a35315b3-31ad-49eb-846f-33c73a2c5ae7"
+              ],
+              "containedElements": [
+                "d3e443c2-0154-4781-97d3-ff620cf58f83",
+                "e212e159-110a-4fa9-829a-c1772bf97fda",
+                "c107692c-c74a-41c3-b1ad-f1c077bd5b1a"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": -146.25,
+              "y": 912
+            },
+            "size": {
+              "width": 1270,
+              "height": 130
+            },
+            "attrs": {
+              "label": {
+                "text": "Zona de Almacenamiento de AWS (respaldos + logs)"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "348df983-d430-44e0-90e7-e072c0fe42dd",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Zona de Almacenamiento de AWS (respaldos + logs).",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "5818cf64-f8e2-4ca1-ac61-9a1ff9f16b5c"
+              ],
+              "containedElements": [
+                "992bbd2f-2364-436f-8b21-7b3307853883",
+                "9cfd0e40-23d1-4bcc-a0e3-30d00d76e636",
+                "e4230d4a-c72e-4e48-a068-c7eb2fa2f87d"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 996,
+              "y": 477
+            },
+            "size": {
+              "width": 170,
+              "height": 110
+            },
+            "attrs": {
+              "label": {
+                "text": "Servicios Externos"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "41576714-378c-42ab-8f8d-c67002a9b65a",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Servicios Externos.",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "742e75ad-d2ce-417c-95c5-77ef4d359775"
+              ],
+              "containedElements": [
+                "0742995e-8983-4658-ae43-692f4606cc12"
+              ]
+            }
+          },
+          {
+            "position": {
               "x": 130,
               "y": 430
             },
@@ -1218,7 +1459,10 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "827d5b96-1cc8-4ed9-acb8-8dac009b4ec3",
+                "84e1b3e9-9ecd-44de-aac9-567b02dbc386"
+              ]
             },
             "labels": [
               "Flujo 2: Https Empleados/Admis."
@@ -1274,7 +1518,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "5a8d6abb-d827-4351-8011-d6ee94d73aad"
+              ]
             },
             "labels": [
               "Flujo 3 : Https AW "
@@ -1320,7 +1566,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "218d961a-e1d3-4fc5-8bf1-161937ca9cd3"
+              ]
             },
             "labels": [
               "Flujo 5 : Balanceo"
@@ -1367,6 +1615,7 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
+                "218d961a-e1d3-4fc5-8bf1-161937ca9cd3",
                 "07409a58-c7b7-4e0f-9036-f236c6fea234"
               ]
             },
@@ -1384,7 +1633,7 @@
             },
             "vertices": [
               {
-                "x": 770,
+                "x": 880,
                 "y": 380
               },
               {
@@ -1424,7 +1673,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "218d961a-e1d3-4fc5-8bf1-161937ca9cd3"
+              ]
             },
             "labels": [
               "Escritura local"
@@ -1476,7 +1727,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "a6ed09f8-831a-4507-9962-28a94a79d7f4"
+              ]
             },
             "labels": [
               ""
@@ -1596,8 +1849,63 @@
             },
             "vertices": [
               {
-                "x": 860,
-                "y": 710
+                "x": 930,
+                "y": 720
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Flujo 10 : Notificaciones.",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "41576714-378c-42ab-8f8d-c67002a9b65a",
+                "07409a58-c7b7-4e0f-9036-f236c6fea234"
+              ]
+            },
+            "labels": [
+              "Flujo 10 : Notificaciones"
+            ],
+            "id": "742e75ad-d2ce-417c-95c5-77ef4d359775",
+            "source": {
+              "x": 960,
+              "y": 460
+            },
+            "target": {
+              "cell": "0742995e-8983-4658-ae43-692f4606cc12",
+              "port": "0c4df1d4-e3aa-4283-b762-15630137ca48"
+            },
+            "vertices": [
+              {
+                "x": 1040,
+                "y": 440
               }
             ]
           },
@@ -2334,7 +2642,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "84e1b3e9-9ecd-44de-aac9-567b02dbc386"
+              ]
             },
             "labels": [
               "Flujo1 : https."
@@ -2386,7 +2696,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "218d961a-e1d3-4fc5-8bf1-161937ca9cd3"
+              ]
             },
             "labels": [
               "Flujo 4: trafico filtrado"
@@ -2498,7 +2810,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "218d961a-e1d3-4fc5-8bf1-161937ca9cd3"
+              ]
             },
             "labels": [
               ""
@@ -2544,7 +2858,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "218d961a-e1d3-4fc5-8bf1-161937ca9cd3"
+              ]
             },
             "labels": [
               ""
@@ -2596,7 +2912,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "a6ed09f8-831a-4507-9962-28a94a79d7f4"
+              ]
             },
             "labels": [
               "Flujo 6 : SQL/SSL"
@@ -2652,7 +2970,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "a6ed09f8-831a-4507-9962-28a94a79d7f4"
+              ]
             },
             "labels": [
               "Escritura Local"
@@ -2708,7 +3028,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "348df983-d430-44e0-90e7-e072c0fe42dd"
+              ]
             },
             "labels": [
               "Flujo 8 : Backup Diario"
@@ -2731,19 +3053,22 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Límite de confianza",
+              "name": "Flujo 11 : Gestión de AWS.",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "fe0d1229-f9c6-4c0b-95a5-96be6a2a4da7"
+                "fe0d1229-f9c6-4c0b-95a5-96be6a2a4da7",
+                "742e75ad-d2ce-417c-95c5-77ef4d359775"
               ],
               "containedElements": [
-                "600d28f1-63b9-48bc-a1f2-b63a1a3cec2a"
+                "41576714-378c-42ab-8f8d-c67002a9b65a",
+                "600d28f1-63b9-48bc-a1f2-b63a1a3cec2a",
+                "0742995e-8983-4658-ae43-692f4606cc12"
               ]
             },
             "labels": [
-              "Límite de confianza"
+              "Flujo 11 : Gestión de AWS"
             ],
             "id": "07409a58-c7b7-4e0f-9036-f236c6fea234",
             "source": {
@@ -2751,8 +3076,131 @@
               "y": 260
             },
             "target": {
-              "x": 1030,
-              "y": 914
+              "cell": "e4230d4a-c72e-4e48-a068-c7eb2fa2f87d",
+              "port": "fec31aab-1aeb-42e4-91a5-b96e60deb1d1"
+            },
+            "vertices": [
+              {
+                "x": 1190,
+                "y": 380
+              }
+            ]
+          },
+          {
+            "position": {
+              "x": 1011.25,
+              "y": 510
+            },
+            "size": {
+              "width": 140,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Servicios Externos."
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "0c4df1d4-e3aa-4283-b762-15630137ca48"
+                },
+                {
+                  "group": "right",
+                  "id": "e82e3976-1eb6-4cd6-bd13-5c424dd4bf8b"
+                },
+                {
+                  "group": "bottom",
+                  "id": "93ea830f-0e4b-4821-8fdf-737d1bcc5e7c"
+                },
+                {
+                  "group": "left",
+                  "id": "e67f22cd-5132-4789-9327-e9377bc15dbb"
+                }
+              ]
+            },
+            "id": "0742995e-8983-4658-ae43-692f4606cc12",
+            "zIndex": 26,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Servicios Externos.\n",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
             }
           }
         ]
