@@ -2587,6 +2587,62 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
+              "name": "Escritura Local.",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Escritura Local"
+            ],
+            "id": "a35315b3-31ad-49eb-846f-33c73a2c5ae7",
+            "source": {
+              "x": 260,
+              "y": 770
+            },
+            "target": {
+              "cell": "c107692c-c74a-41c3-b1ad-f1c077bd5b1a",
+              "port": "fec31aab-1aeb-42e4-91a5-b96e60deb1d1"
+            },
+            "vertices": [
+              {
+                "x": 330,
+                "y": 770
+              },
+              {
+                "x": 330,
+                "y": 800
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 24,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
               "name": "Flujo de datos",
               "description": "",
               "outOfScope": false,
@@ -2603,14 +2659,79 @@
             "labels": [
               "Flujo de datos"
             ],
-            "id": "a35315b3-31ad-49eb-846f-33c73a2c5ae7",
+            "id": "5818cf64-f8e2-4ca1-ac61-9a1ff9f16b5c",
             "source": {
-              "x": 260,
-              "y": 770
+              "x": 410,
+              "y": 860
             },
             "target": {
-              "cell": "c107692c-c74a-41c3-b1ad-f1c077bd5b1a",
+              "cell": "992bbd2f-2364-436f-8b21-7b3307853883",
               "port": "fec31aab-1aeb-42e4-91a5-b96e60deb1d1"
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
             }
           }
         ]
