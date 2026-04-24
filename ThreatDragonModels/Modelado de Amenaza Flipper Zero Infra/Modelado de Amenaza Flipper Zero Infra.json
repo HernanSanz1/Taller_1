@@ -370,8 +370,8 @@
           },
           {
             "position": {
-              "x": 420,
-              "y": 710
+              "x": 435,
+              "y": 740
             },
             "size": {
               "width": 280,
@@ -2329,7 +2329,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Flujo de datos",
+              "name": "Escritura local.",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2343,7 +2343,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Flujo de datos"
+              ""
             ],
             "id": "d7f8191d-336e-42fe-a22a-1991e62569fb",
             "source": {
@@ -2375,7 +2375,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Flujo de datos",
+              "name": "Escritura local.",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2389,7 +2389,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Flujo de datos"
+              ""
             ],
             "id": "c51b2166-3845-4eae-96ad-e4df37d3a424",
             "source": {
@@ -2406,6 +2406,52 @@
                 "y": 510
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 22,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Flujo de datos",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Flujo de datos"
+            ],
+            "id": "ddcad309-c517-41e0-9006-b405a38b31c1",
+            "source": {
+              "x": 540,
+              "y": 600
+            },
+            "target": {
+              "x": 460,
+              "y": 730
+            }
           }
         ]
       }
