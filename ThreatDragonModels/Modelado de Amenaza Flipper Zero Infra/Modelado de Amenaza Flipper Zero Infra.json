@@ -370,8 +370,8 @@
           },
           {
             "position": {
-              "x": 435,
-              "y": 740
+              "x": 503.75,
+              "y": 710
             },
             "size": {
               "width": 280,
@@ -1444,6 +1444,110 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Flujo 7 : Redundancia.",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "e4b8f670-2c9f-4336-baf2-5fb949201dfb",
+            "source": {
+              "x": 400,
+              "y": 750
+            },
+            "target": {
+              "cell": "d3e443c2-0154-4781-97d3-ff620cf58f83",
+              "port": "719733f0-0f56-4e06-a772-782b487b970f"
+            },
+            "vertices": [
+              {
+                "x": 450,
+                "y": 750
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Flujo 7 : Redundancia.",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Flujo 7 : Redundancia"
+            ],
+            "id": "571b63eb-1218-4f87-bb19-8c6449ec88bb",
+            "source": {
+              "cell": "e212e159-110a-4fa9-829a-c1772bf97fda",
+              "port": "e9414647-f926-46ba-b499-33bb669349ab"
+            },
+            "target": {
+              "cell": "d3e443c2-0154-4781-97d3-ff620cf58f83",
+              "port": "719733f0-0f56-4e06-a772-782b487b970f"
+            },
+            "vertices": [
+              {
+                "x": 410,
+                "y": 740
+              }
+            ]
+          },
+          {
             "position": {
               "x": 380,
               "y": 319.9999999999999
@@ -2427,6 +2531,62 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
+              "name": "Flujo 6 : SQL/SSL.",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Flujo 6 : SQL/SSL"
+            ],
+            "id": "ddcad309-c517-41e0-9006-b405a38b31c1",
+            "source": {
+              "x": 540,
+              "y": 600
+            },
+            "target": {
+              "cell": "e212e159-110a-4fa9-829a-c1772bf97fda",
+              "port": "fec31aab-1aeb-42e4-91a5-b96e60deb1d1"
+            },
+            "vertices": [
+              {
+                "x": 430,
+                "y": 640
+              },
+              {
+                "x": 390,
+                "y": 660
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 23,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
               "name": "Flujo de datos",
               "description": "",
               "outOfScope": false,
@@ -2443,14 +2603,14 @@
             "labels": [
               "Flujo de datos"
             ],
-            "id": "ddcad309-c517-41e0-9006-b405a38b31c1",
+            "id": "a35315b3-31ad-49eb-846f-33c73a2c5ae7",
             "source": {
-              "x": 540,
-              "y": 600
+              "x": 260,
+              "y": 770
             },
             "target": {
-              "x": 460,
-              "y": 730
+              "cell": "c107692c-c74a-41c3-b1ad-f1c077bd5b1a",
+              "port": "fec31aab-1aeb-42e4-91a5-b96e60deb1d1"
             }
           }
         ]
