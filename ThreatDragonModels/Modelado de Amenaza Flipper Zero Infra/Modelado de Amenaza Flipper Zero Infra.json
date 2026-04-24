@@ -1290,6 +1290,98 @@
             }
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Flujo 5 : Balanceo.",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Flujo 5 : Balanceo"
+            ],
+            "id": "543c4298-ca0a-4027-92a4-3a03b67df6f6",
+            "source": {
+              "x": 530,
+              "y": 380
+            },
+            "target": {
+              "cell": "bd5eec8c-a38f-45fb-b284-3d4fcad35ff0",
+              "port": "fec31aab-1aeb-42e4-91a5-b96e60deb1d1"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Flujo de datos",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Flujo de datos"
+            ],
+            "id": "fe0d1229-f9c6-4c0b-95a5-96be6a2a4da7",
+            "source": {
+              "x": 530,
+              "y": 380
+            },
+            "target": {
+              "cell": "600d28f1-63b9-48bc-a1f2-b63a1a3cec2a",
+              "port": "fec31aab-1aeb-42e4-91a5-b96e60deb1d1"
+            }
+          },
+          {
             "position": {
               "x": 380,
               "y": 319.9999999999999
@@ -2063,6 +2155,62 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
+              "name": "Flujo 4: trafico filtrado.",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Flujo 4: trafico filtrado"
+            ],
+            "id": "cb40188e-5a89-4934-b123-56476e3426b1",
+            "source": {
+              "x": 250,
+              "y": 260
+            },
+            "target": {
+              "cell": "6de05453-a5c5-43c0-bf75-93df5663676e",
+              "port": "fec31aab-1aeb-42e4-91a5-b96e60deb1d1"
+            },
+            "vertices": [
+              {
+                "x": 290,
+                "y": 260
+              },
+              {
+                "x": 470,
+                "y": 300
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 19,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
               "name": "Flujo de datos",
               "description": "",
               "outOfScope": false,
@@ -2079,23 +2227,23 @@
             "labels": [
               "Flujo de datos"
             ],
-            "id": "cb40188e-5a89-4934-b123-56476e3426b1",
+            "id": "a0bf1d14-4c2a-44aa-b684-6bbfcf68d97c",
             "source": {
-              "x": 250,
-              "y": 260
+              "cell": "6de05453-a5c5-43c0-bf75-93df5663676e",
+              "port": "b79346eb-e774-4b5a-84e6-c18b09377cff"
             },
             "target": {
-              "cell": "6de05453-a5c5-43c0-bf75-93df5663676e",
+              "cell": "c9485e9e-4f7b-47b3-a6bd-7229239988e5",
               "port": "fec31aab-1aeb-42e4-91a5-b96e60deb1d1"
             },
             "vertices": [
               {
-                "x": 350,
-                "y": 290
+                "x": 523,
+                "y": 410
               },
               {
-                "x": 390,
-                "y": 290
+                "x": 600,
+                "y": 410
               }
             ]
           }
