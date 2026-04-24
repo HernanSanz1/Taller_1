@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "bd5eec8c-a38f-45fb-b284-3d4fcad35ff0",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Server1\n-> AWS-Linux Debian 11,Nginx, PHP.",
@@ -155,6 +155,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -238,7 +239,6 @@
               ]
             },
             "id": "600d28f1-63b9-48bc-a1f2-b63a1a3cec2a",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Server3\n-> AWS-Linux Debian 11,Nginx, PHP.",
@@ -272,6 +272,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -355,7 +356,6 @@
               ]
             },
             "id": "c9485e9e-4f7b-47b3-a6bd-7229239988e5",
-            "zIndex": 3,
             "data": {
               "type": "tm.Actor",
               "name": "Server2\n-> AWS-Linux Debian 11,Nginx, PHP.",
@@ -389,6 +389,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -472,7 +473,6 @@
               ]
             },
             "id": "d3e443c2-0154-4781-97d3-ff620cf58f83",
-            "zIndex": 4,
             "data": {
               "type": "tm.Actor",
               "name": "Server5\n-> AWS-Linux Debian 11,Mysql, nodo \n2.",
@@ -506,6 +506,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -589,7 +590,6 @@
               ]
             },
             "id": "e212e159-110a-4fa9-829a-c1772bf97fda",
-            "zIndex": 5,
             "data": {
               "type": "tm.Actor",
               "name": "Server4\n-> AWS-Linux Debian 11,Mysql nodo 1.",
@@ -623,6 +623,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -706,7 +707,6 @@
               ]
             },
             "id": "1010a2d4-6ce8-446c-8da3-b614bcadb864",
-            "zIndex": 6,
             "data": {
               "type": "tm.Actor",
               "name": "Cliente.",
@@ -717,13 +717,6 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -747,6 +740,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -830,7 +824,6 @@
               ]
             },
             "id": "b89e4814-1edb-4a17-aaff-9ba056aa8bb4",
-            "zIndex": 7,
             "data": {
               "type": "tm.Actor",
               "name": "Empleados, Adminitradores.",
@@ -845,7 +838,7 @@
           },
           {
             "position": {
-              "x": 650,
+              "x": 587.5,
               "y": 40
             },
             "size": {
@@ -864,6 +857,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 8,
             "ports": {
               "groups": {
                 "top": {
@@ -947,7 +941,6 @@
               ]
             },
             "id": "d6ca855f-800d-45fd-9ca7-fbef68f2a518",
-            "zIndex": 8,
             "data": {
               "type": "tm.Actor",
               "name": "Administrador de AWS.",
@@ -962,8 +955,8 @@
           },
           {
             "position": {
-              "x": 120,
-              "y": 190
+              "x": 155,
+              "y": 200
             },
             "size": {
               "width": 190,
@@ -981,6 +974,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 9,
             "ports": {
               "groups": {
                 "top": {
@@ -1064,7 +1058,6 @@
               ]
             },
             "id": "04d93d8f-6e42-4a50-9bff-64eac8c354d1",
-            "zIndex": 9,
             "data": {
               "type": "tm.Actor",
               "name": "CloudFront (CDN+WAF)\n-> Https, sin geobloqueo.",
@@ -1079,7 +1072,7 @@
           },
           {
             "position": {
-              "x": 441.5,
+              "x": 587.5,
               "y": 190
             },
             "size": {
@@ -1098,6 +1091,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 10,
             "ports": {
               "groups": {
                 "top": {
@@ -1181,7 +1175,6 @@
               ]
             },
             "id": "3d790879-34db-4813-96b6-259610fa49c2",
-            "zIndex": 10,
             "data": {
               "type": "tm.Actor",
               "name": "AWS Console \n-> IAM + APIS.",
@@ -1192,6 +1185,108 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Flujo 2: Https Empleados/Admis.\n",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Flujo 2: Https Empleados/Admis."
+            ],
+            "id": "6896c284-4841-4d93-972e-5b084a0c2776",
+            "source": {
+              "cell": "b89e4814-1edb-4a17-aaff-9ba056aa8bb4",
+              "port": "b79346eb-e774-4b5a-84e6-c18b09377cff"
+            },
+            "target": {
+              "cell": "04d93d8f-6e42-4a50-9bff-64eac8c354d1",
+              "port": "fec31aab-1aeb-42e4-91a5-b96e60deb1d1"
+            },
+            "vertices": [
+              {
+                "x": 280,
+                "y": 120
+              },
+              {
+                "x": 320,
+                "y": 150
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Flujo 3 : Https AWS ",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Flujo 3 : Https AW "
+            ],
+            "id": "e37374e5-3d92-4b35-8c41-88545ba9f4ce",
+            "source": {
+              "cell": "d6ca855f-800d-45fd-9ca7-fbef68f2a518",
+              "port": "b79346eb-e774-4b5a-84e6-c18b09377cff"
+            },
+            "target": {
+              "cell": "3d790879-34db-4813-96b6-259610fa49c2",
+              "port": "fec31aab-1aeb-42e4-91a5-b96e60deb1d1"
             }
           },
           {
@@ -1215,6 +1310,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -1298,7 +1394,6 @@
               ]
             },
             "id": "6de05453-a5c5-43c0-bf75-93df5663676e",
-            "zIndex": 11,
             "data": {
               "type": "tm.Actor",
               "name": "Aplicación de Balanceo de carga Amazon. ",
@@ -1332,6 +1427,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -1415,7 +1511,6 @@
               ]
             },
             "id": "be933101-58a9-4c96-be90-09ef84efd845",
-            "zIndex": 12,
             "data": {
               "type": "tm.Actor",
               "name": "Disco duro Local (App Server)\n-> auditoria,seguridad,pagos,errores.\n",
@@ -1449,6 +1544,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -1532,7 +1628,6 @@
               ]
             },
             "id": "c107692c-c74a-41c3-b1ad-f1c077bd5b1a",
-            "zIndex": 13,
             "data": {
               "type": "tm.Actor",
               "name": "HDD local -- archivos de bd (ambos nodos).",
@@ -1566,6 +1661,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -1649,7 +1745,6 @@
               ]
             },
             "id": "992bbd2f-2364-436f-8b21-7b3307853883",
-            "zIndex": 14,
             "data": {
               "type": "tm.Actor",
               "name": "S3 Backups BD\n-> respaldo diario.",
@@ -1683,6 +1778,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 15,
             "ports": {
               "groups": {
                 "top": {
@@ -1766,7 +1862,6 @@
               ]
             },
             "id": "9cfd0e40-23d1-4bcc-a0e3-30d00d76e636",
-            "zIndex": 15,
             "data": {
               "type": "tm.Actor",
               "name": "S3 Logs",
@@ -1800,6 +1895,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 16,
             "ports": {
               "groups": {
                 "top": {
@@ -1883,7 +1979,6 @@
               ]
             },
             "id": "e4230d4a-c72e-4e48-a068-c7eb2fa2f87d",
-            "zIndex": 16,
             "data": {
               "type": "tm.Actor",
               "name": "EBS Snapshots\n-> respaldo de App Servers.",
@@ -1916,6 +2011,58 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
+              "name": "Flujo1 : https.\n",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Flujo1 : https."
+            ],
+            "id": "1db0e305-a07f-47fe-a092-827681ee017f",
+            "source": {
+              "x": 190,
+              "y": 100
+            },
+            "target": {
+              "cell": "04d93d8f-6e42-4a50-9bff-64eac8c354d1",
+              "port": "fec31aab-1aeb-42e4-91a5-b96e60deb1d1"
+            },
+            "vertices": [
+              {
+                "x": 120,
+                "y": 140
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 18,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
               "name": "Flujo de datos",
               "description": "",
               "outOfScope": false,
@@ -1932,124 +2079,14 @@
             "labels": [
               "Flujo de datos"
             ],
-            "id": "1db0e305-a07f-47fe-a092-827681ee017f",
+            "id": "cb40188e-5a89-4934-b123-56476e3426b1",
             "source": {
-              "x": 190,
-              "y": 100
+              "x": 250,
+              "y": 260
             },
             "target": {
-              "x": 290,
-              "y": 230
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
+              "cell": "6de05453-a5c5-43c0-bf75-93df5663676e",
+              "port": "fec31aab-1aeb-42e4-91a5-b96e60deb1d1"
             }
           }
         ]
